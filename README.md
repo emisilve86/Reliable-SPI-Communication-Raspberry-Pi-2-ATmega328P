@@ -102,9 +102,3 @@ But first we need to give the system a description of the hardware configured as
 ```
 
 This file is available in the Linux kernel source tree for Raspberry Pi, which can be cloned from this [url](https://github.com/raspberrypi/linux), and it is located in `arch/arm/boot/dts`. It can be either compiled with `dtc`, or you can rely on the kernel's Makefile by following the guide presented at this [link](https://www.raspberrypi.com/documentation/computers/linux_kernel.html). Anyhow, the `dtb` file resulting from compilation must be copied in the `/boot/` directory where also the bootcode and kernel images reside.
-
-## Implementation
-
-Below, a picture that shows the entire hardware configuration accomplished by me, which follows the breadboard design shown above.
-
-<p align="center"><img src="images/Implementation.jpg" alt="drawing" width="500"/></p>
